@@ -1,10 +1,10 @@
 # PHL Delinquent Analysis
 
-An analysis of tax delinquent properties in Philadelphia that were issued permits
+An analysis of tax delinquent properties in Philadelphia that were issued permits by the Department of Licenses & Inspections (L&I).
 
 ## Overview
 
-With the recently released data on [property tax balances](https://www.opendataphilly.org/dataset/property-tax-balances) from the City of Philadelphia, it is now possible to examine - using open data APIs from the city - instances where properties with an outstanding property tax balance are issued permits from the Department of Licenses & Inspections (L&I).
+With the recently released data on [property tax balances](https://www.opendataphilly.org/dataset/property-tax-balances) from the City of Philadelphia, it is now possible to examine - using open data APIs from the city - instances where properties with an outstanding property tax balance are issued permits from L&I.
 
 This analysis complements [an earlier study done by the City of Philadelphia itself](https://github.com/mheadd/licensing-delinquents) which suggests that problems exist with issuing various permits and licenses from L&I for properties with an outstanding property tax balance.
 
