@@ -81,5 +81,5 @@ An example of the ```Permit Summary``` field can be seen below.
 
 This information is a [subset of the response from the L&I API](http://services.phila.gov/PhillyApi/Data/v1.0/locations(669010)/permits?$filter=(issued_datetime%20gt%20datetime%272014-01-01%27)%20and%20(issued_datetime%20lt%20datetime%272015-12-31%27)&$format=json&$expand=locations) for this specific property. 
 
-1. Note - total balances may change slightly from day to day as interest and penalties accumulate. The figure used here was the outstanding liability at the time of this analysis. 
+1. Note - total balances may change slightly from day to day as interest and penalties accumulate. The figure used here was the outstanding liability at the time of this analysis and is reflected in the datasets. The link to the Property Tax Balance API may show a different amount.
 
