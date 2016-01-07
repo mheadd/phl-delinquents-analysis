@@ -23,7 +23,7 @@ The final number of properties examined in this analysis was 20,403. Two City of
 
 This analysis found 783 properties with an active lien and an outstanding property tax balance in 2014 of more than $1,000 that had been issued one or more permits from L&I between January 1, 2014 and December 31, 2015.
 
-Of these properies, the majority (546) received only 1 permit. 96 percent of properties were issued 5 or fewer permits during the time period examined. One property, with a total outstanding tax liability for 2014 of **$126,301.55** was issued 105 permits. <sup>1</sup>
+Of these properies, the majority (546) received only 1 permit. 96 percent of properties were issued 5 or fewer permits during the time period examined. [One property](https://data.phila.gov/resource/y5ti-svsu.json?location=1801%20JOHN%20F%20KENNEDY%20BLVD), with a total outstanding tax liability for 2014 of **$126,301.55** was issued 105 permits. <sup>1</sup>
 
 Of the 20,403 delinquent properties examined, the 783 properties that were issued permits represents a rate of roughly 4 percent. However, it is likely that this analysis is undercounting instances where permits are issued for properties with outstanding tax balances.
 
