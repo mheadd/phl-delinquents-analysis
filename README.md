@@ -36,7 +36,7 @@ With these caveats in mind, a conservative estimate of the actual occurance of p
 
 ## Description of Data
 
-```2014-Philadelphia-Property-Tax-Liabilities.csv```: The initial file of 67,475 records with an entry in the Property Tax Balance Data Set for 2014. The layout of this file matches what can be downloaded from OpenDataPhilly.org. This file is a subset of the complete file released by the city.  
+```2014-Philadelphia-Property-Tax-Liabilities.csv```: The initial file of 67,475 records with an entry in the Property Tax Balance Data Set for 2014. The layout of this file matches [what can be downloaded from OpenDataPhilly.org](http://metadata.phila.gov/#home/datasetdetails/5543866020583086178c4ee7/representationdetails/55f31aad49daa3bf75aa77f3/). This file is a subset of the complete file released by the city.  
 
 ```2014-Philadelphia-Property-Tax-Liabilities-With-Permits.csv```: File showing properties with an active lien and an outstanding 2014 property tax balance of more than $1,000 that were issued 1 or more permits between 2014 and 2015.
 
