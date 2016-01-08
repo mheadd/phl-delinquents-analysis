@@ -47,6 +47,8 @@ With these caveats in mind, a conservative estimate of the actual occurance of p
 | Location |  The address of the property, joined from the OPA Property Assessments dataset | 
 | Official Address | The address returned by the ULRS L&I Key lookup | 
 | TopicID |  The L&I Address Key | 
+| Violation Summary | A JSON array with basic details of violations issued for this property (additional details below) |
+| Number of violations | A count of the total number of permits issued for this property |
 | Permit Summary | A JSON array with basic details of permits issued for this property (additional details below) | 
 | Number of permits | A count of the number of permits issued for this property between January 1, 2014 and December 31, 2015 | 
 | Unit |  Unit number of the property, if exists | 
@@ -80,6 +82,36 @@ An example of the ```Permit Summary``` field can be seen below.
 ```
 
 This information is a [subset of the response from the L&I API](http://services.phila.gov/PhillyApi/Data/v1.0/locations(669010)/permits?$filter=(issued_datetime%20gt%20datetime%272014-01-01%27)%20and%20(issued_datetime%20lt%20datetime%272015-12-31%27)&$format=json&$expand=locations) for this specific property. 
+
+An example of the ```Violation Summary``` field can be seen below.
+
+```json
+[{
+	"violation_details_id": "2644165",
+	"violation_code": "A-302.10/2",
+	"violation_code_description": "PERMB- WORK NOT SAME AS PERMIT",
+	"violation_datetime": "/Date(1349913600000)/",
+	"violation_status": "Complied",
+	"case_number": "354969"
+}, {
+	"violation_details_id": "3039657",
+	"violation_code": "A-301.1/64",
+	"violation_code_description": "PERMZ- CONST REMOV CHANGE",
+	"violation_datetime": "/Date(1349913600000)/",
+	"violation_status": "Not Complied",
+	"case_number": "354969"
+}, {
+	"violation_details_id": "3039658",
+	"violation_code": "A-504.1/3",
+	"violation_code_description": "SWO- CONSTR W/O BLDG PERMIT",
+	"violation_datetime": "/Date(1349913600000)/",
+	"violation_status": "Not Complied",
+	"case_number": "354969"
+}]
+
+```
+
+This information is a [subset of the response from the L&I API](http://services.phila.gov/PhillyApi/Data/v1.0/locations(483084)/violationdetails?$format=json) for this specific property. 
 
 1. Note - total balances may change slightly from day to day as interest and penalties accumulate. The figure used here was the outstanding liability at the time of this analysis and is reflected in the datasets. The link to the Property Tax Balance API may show a different amount.
 
