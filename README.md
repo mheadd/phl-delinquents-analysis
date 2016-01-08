@@ -34,7 +34,7 @@ Of the 20,403 delinquent properties examined, the 783 properties that were issue
 
 With these caveats in mind, a conservative estimate of the actual occurance of properties with an outstanding tax balance being issued a license or permit from L&I is probably somewhere between 5-10 percent.
 
-A majority of the number 783 properties with outstanding taxes that were issued permits (510) had past violations. The existance of past violations as a rationale for issuing permits is [discussed more fully here](issues/2).
+A majority of the number 783 properties with outstanding taxes that were issued permits (510) had past violations. The existance of past violations as a rationale for issuing permits is [discussed more fully here](../../issues/2).
 
 ## Description of Data
 
