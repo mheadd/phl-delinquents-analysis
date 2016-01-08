@@ -34,6 +34,8 @@ Of the 20,403 delinquent properties examined, the 783 properties that were issue
 
 With these caveats in mind, a conservative estimate of the actual occurance of properties with an outstanding tax balance being issued a license or permit from L&I is probably somewhere between 5-10 percent.
 
+A majority of the number 783 properties with outstanding taxes that were issued permits (510) had past violations. The existance of past violations as a rationale for issuing permits is [discussed more fully here](issues/2).
+
 ## Description of Data
 
 ```2014-Philadelphia-Property-Tax-Liabilities.csv```: The initial file of 67,475 records with an entry in the Property Tax Balance Data Set for 2014. The layout of this file matches [what can be downloaded from OpenDataPhilly.org](http://metadata.phila.gov/#home/datasetdetails/5543866020583086178c4ee7/representationdetails/55f31aad49daa3bf75aa77f3/). This file is a subset of the complete file released by the city.  
