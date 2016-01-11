@@ -21,7 +21,9 @@ The final number of properties examined in this analysis was 20,403. Two City of
 
 ## Findings and Caveats
 
-This analysis found 783 properties with an active lien and an outstanding property tax balance in 2014 of more than $1,000 that had been issued one or more permits from L&I between January 1, 2014 and December 31, 2015.
+* This analysis found 783 properties with an active lien and an outstanding property tax balance in 2014 of more than $1,000 that had been issued one or more permits from L&I between January 1, 2014 and December 31, 2015. 
+* The total outstanding tax liability for these 783 properties that were issued permits by the city between January 1, 2014 and December 31, 2015 totals almost **$3.5 million**. 
+* The average outstanding tax liability for these properties was about $4,500, while the median oustanding liability was about $1,700.
 
 Of these properies, the majority (546) received only 1 permit. 96 percent of properties were issued 5 or fewer permits during the time period examined. [One property](https://data.phila.gov/resource/y5ti-svsu.json?location=1801%20JOHN%20F%20KENNEDY%20BLVD), with a total outstanding tax liability for 2014 of **$126,301.55** was issued 105 permits. <sup>1</sup>
 
